@@ -8,5 +8,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'CarpetCleaning';
+  companyName: string = "Tony's Carpet Cleaning";
+  phone: string = "📞 Call: (555) 123-4567";
+  email: string = "📧 Email: info@freshflocarpet.com";
+  location: string = "📍 Serving the Saint Cloud, FL area";
+  year: number = new Date().getFullYear();
 }
